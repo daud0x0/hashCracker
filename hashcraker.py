@@ -31,5 +31,5 @@ with open(filePath, 'r') as file:
             hashword = hashOb.hexdigest()
             if hashword == hashTodecrypt:
                  print(colored((f'[!!] Found {typeOfHash} is: {lines} '),'green'))
-    print('Password not found in file')
+    print('[--] Password not found in file')
 
